@@ -1,11 +1,11 @@
 *{
   margin: 0;
   padding: 0;
-  background-color: rgb(48, 48, 48);
+  background-color: rgb(69, 67, 67);
 }
 
 .app {
-  width: 100vh;
+  width: 100vw;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -13,6 +13,7 @@
 }
 
 .cell img {
+  background: none;
   width: 48px;
   height: 48px;
   position: relative;
@@ -23,6 +24,7 @@
   height: calc(64px * 8);
   display: flex;
   flex-wrap: wrap;
+
 }
 
 .cell {
@@ -34,9 +36,30 @@
 }
 
 .black {
-  background-color: rgb(62, 17, 187);
+  background-color: rgb(119, 118, 118);
 }
 
 .white {
-  background-color: rgb(24, 120, 120);
+  background-color: rgb(70, 49, 49);
 }
+
+.selected {
+  background-color: rgb(145, 145, 219);
+}
+
+.available {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  background-color: #22c022;
+}
+
+.lost { 
+height: calc(50vh - 60px);
+padding: 30px;
+margin-left: 50px;
+}
+
+
+
+
